@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Surat 💌</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="pink">
+
+<div class="menu">☰</div>
+
+<div class="page fade">
+  <p id="text"></p>
+</div>
+
+<script>
+const msg = `haii marsha aku sayang kamuu
+semoga kamu sehat sehat ya,
+makasi udah mau sejauh ini sama aku hehe,
+i love youu,
+kamu kalo ada apa apa cerita ya ke aku,
+aku mau deh jadi rumah kamu hehe,
+aku sayang kamu bukan cuma karna muka
+tapi semuanya aku suka darimu,
+kamu kalo bt lucu deh,
+semoga kamu bisa cinta aku lebih dari 50% ya ijinn 🫸🏻`;
+
+let i=0;
+const el=document.getElementById("text");
+function type(){
+  if(i<msg.length){
+    el.innerHTML+=msg.charAt(i);
+    i++;
+    setTimeout(type,40);
+  }
+}
+type();
+</script>
+</body>
+</html>
+
