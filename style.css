@@ -1,0 +1,18 @@
+body {margin:0;font-family: 'Arial';}
+.pink {background:#ffd6e8;}
+.matcha {background:#cfe7c5;}
+.center {display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;}
+.page {padding:30px;}
+.fade {animation: fade 1s;}
+.hidden {display:none;}
+.big {width:80%;border-radius:20px;}
+.slider img {width:90%;margin:10px;border-radius:15px;}
+.grid img {width:45%;margin:5px;border-radius:15px;}
+button {padding:10px 20px;border:none;border-radius:20px;background:#ff7eb3;color:white;}
+.small {font-size:14px;opacity:.7}
+
+@keyframes fade {
+  from {opacity:0; transform:translateY(20px);}
+  to {opacity:1; transform:none;}
+}
+
