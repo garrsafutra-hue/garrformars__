@@ -1,12 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>For Marsha</title>
+  <title>For Marsha 💗</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Hai Marsha 💗</h1>
-  <p>Ini web pertama kita.</p>
+<body class="pink">
+
+<audio id="bgm" src="audio/piano.mp3" loop></audio>
+
+<div class="page center fade">
+  <h1>Hai Marsha…</h1>
+  <button onclick="start()">Mulai 💗</button>
+</div>
+
+<div class="page center hidden" id="login">
+  <p class="small">buat kamu sayangg</p>
+  <input type="password" id="pw" placeholder="password">
+  <button onclick="login()">Masuk</button>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
 
